@@ -1,0 +1,122 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .stat{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  
+  .contact-details, .get-in-touch {
+    padding: 20px;
+    border: 1px solid rgb(50, 0, 250); /* Pink border */
+    border-radius: 8px;
+    background-color: #f8f9fa; /* Light background color */
+  }
+  
+  h3 {
+    color: rgb(50, 0, 250); /* Pink color for headings */
+    margin-bottom: 20px;
+  }
+  
+  .contact-details p, .get-in-touch .form-label {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .contact-details a {
+    color: rgb(50, 0, 250); /* Pink color for links */
+    text-decoration: none;
+  }
+  
+  .contact-details a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-primary {
+    background-color: rgb(50, 0, 250); /* Pink background for button */
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(50, 0, 250); /* Darker pink on hover */
+  }
+  
+  /* Mobile-specific styling */
+  @media (max-width: 767px) {
+    .contact-details, .get-in-touch {
+      padding: 15px; /* Reduce padding on smaller screens */
+    }
+    
+    h3 {
+      font-size: 1.5rem; /* Adjust heading size on mobile */
+    }
+    
+    .btn-primary {
+      width: 100%; /* Make the submit button full-width on mobile */
+    }
+  }
+  
+  
+  .container {
+    margin-top: 20px;
+  }
+  
+  .contact-details, .get-in-touch {
+    padding: 20px;
+    border: 1px solid rgb(50, 0, 250); /* Pink border */
+    border-radius: 8px;
+    background-color: #f8f9fa; /* Light background color */
+    height: 700px; /* Ensure the boxes are the same height */
+  }
+  
+  .row {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  h3 {
+    color: rgb(50, 0, 250); /* Pink color for headings */
+    margin-bottom: 20px;
+  }
+  
+  .contact-details p, .get-in-touch .form-label {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .contact-details a {
+    color: rgb(50, 0, 250); /* Pink color for links */
+    text-decoration: none;
+  }
+  
+  .contact-details a:hover {
+    text-decoration: underline;
+  }
+  
+  .btn-primary {
+    background-color: rgb(50, 0, 250); /* Pink background for button */
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: rgb(50, 0, 250); /* Darker pink on hover */
+  }
+  
+  /* Mobile-specific styling */
+  // @media (max-width: 767px) {
+  //   .contact-details, .get-in-touch {
+  //     padding: 15px; /* Reduce padding on smaller screens */
+  //   }
+    
+  //   h3 {
+  //     font-size: 1.5rem; /* Adjust heading size on mobile */
+  //   }
+    
+  //   .btn-primary {
+  //     width: 100%; /* Make the submit button full-width on mobile */
+  //   }
+  // }
+  

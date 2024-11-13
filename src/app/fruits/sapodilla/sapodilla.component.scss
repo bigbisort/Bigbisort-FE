@@ -1,0 +1,90 @@
+.sapodilla-container {
+  background-image: url('/assets/Images/fruits/sapodilla_background.jpg'); /* Path to your apple image */
+  background-size: cover; /* Ensures the background covers the entire area */
+  background-repeat: no-repeat; /* Prevents the background from repeating */
+  background-attachment: fixed; /* Makes the background image fixed during scroll */
+  background-position: center; /* Centers the image */
+  height: 100vh; /* Full view height for initial display */
+  width: 80%; /* Full width */
+  overflow-y: auto; /* Enables vertical scrolling */
+  scroll-behavior: smooth; /* Smooth scrolling */
+
+  //overflow-anchor: none !important;
+  //scroll-snap-stop: normal !important;
+  //overscroll-behavior: unset !important;
+  //scroll-behavior: unset !important;
+
+  z-index: 1000; /* Make sure the popup is above other content */
+  padding: 1rem; /* Padding inside the popup */
+  position: fixed; /* Keep the popup fixed in place */
+  border-radius: 19px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Shadow effect */
+
+
+
+
+
+  .header {
+    text-align: center;
+    padding: 2rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds shadow for text visibility */
+  }
+
+  .sapodilla-content {
+    padding: 5rem;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5); /* Slightly darkens content background for better contrast */
+    border-radius: 10px;
+  }
+
+  .section {
+    margin-bottom: 2rem;
+
+    h2, h3 {
+      color: #ff0707; /* Golden color for headings */
+      font-size: 25px;
+
+    }
+
+    p, ul {
+      color: #fff;
+      font-size: 19px;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 1rem;
+      border-collapse: collapse;
+      color: #fff;
+
+      th, td {
+        padding: 0.5rem;
+        border: 1px solid #fff;
+      }
+
+      th {
+        background-color: rgba(0, 0, 0, 0.7); /* Darker header */
+      }
+
+      tbody tr:nth-child(odd) {
+        background-color: rgba(255, 255, 255, 0.1); /* Light background for odd rows */
+      }
+    }
+  }
+
+  .footer {
+    text-align: center;
+    padding: 1rem;
+
+
+    button {
+      padding: 0.5rem 2rem;
+      background-color: #ffc107;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  }
+}
